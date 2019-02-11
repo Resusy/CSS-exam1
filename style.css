@@ -1,0 +1,181 @@
+body {
+    width: 700px;
+    font-family: "宋体", "Times New Roman", sans-serif, serif;
+}
+
+section {
+    margin: 20px 36px;
+}
+
+header {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #c20c0c;
+    padding-bottom: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+
+}
+
+header span.count {
+    margin-left: 25px;
+}
+
+div.m-reply {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+div textarea {
+    resize: none;
+    width: 563px;
+    height: 66px;
+    margin-left: 10px;
+}
+
+div.submit {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+div .submit .count {
+    font-size: 10px;
+    color: gray;
+    margin-left: 10px;
+}
+
+div .submit button {
+    float: right;
+    color: white;
+    outline-style: none;
+    width: 46px;
+    height: 24px;
+    padding: 0;
+    border: 0;
+    background-size: 46px 24px;
+    background: url(img/bg.png) no-repeat;
+    background-position: 0 -19px;
+    cursor: pointer;
+}
+
+.m-comments {
+    padding-left: 0px;
+}
+
+ul .m-comment {
+    border-top: 1px dotted gray;
+    padding-top: 5px;
+    list-style-type: none;
+    display: flex;
+    height: 81px;
+    width: 628px;
+}
+
+
+ul .m-comment .w-avatar {
+    justify-content: flex-start;
+    order: 0;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+ul .m-comment .comment {
+    width: 400px;
+    height: 50px;
+    order: 1;
+    font-size: 15px;
+}
+
+ul .m-comment .comment .user {
+    display: inline-block;
+    font-size: 15px;
+}
+
+ul .m-comment .comment .v-icon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(img/bg.png) no-repeat;
+    background-position: 0 0;
+}
+
+ul .m-comment .comment .e-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(img/bg.png) no-repeat;
+    background-position: -53px -19px;
+}
+
+ul .m-comment .reply {
+    justify-content: flex-end;
+    order: 2;
+    color: gray;
+    text-align: right;
+    width: 100px;
+    margin-left: 72px;
+    margin-top: 15px;
+    font-size: 10px;
+}
+
+ul .m-comment .reply p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+ul .m-comment .reply a {
+    color: gray;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.m-pager {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.m-pager a:link {
+    color: black;
+}
+
+.m-pager .btn a {
+    display: block;
+    width: 70px;
+    height: 26px;
+    line-height: 26px;
+    background-size: 70px 26px;
+    background: url(img/bg.png) no-repeat;
+    background-position: 0 -54px;
+}
+
+.m-pager .itm a {
+    display: block;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    background-size: 26px 26px;
+    background: url(img/bg.png) no-repeat;
+    background-position: 0 -128px;
+}
+
+.m-pager .itm a:hover {
+    background: url(img/bg.png) no-repeat;
+    background-position: 0 -90px;
+}
+
+.m-pager .sep {
+    width: 20px;
+    height: 26px;
+    line-height: 26px;
+}
